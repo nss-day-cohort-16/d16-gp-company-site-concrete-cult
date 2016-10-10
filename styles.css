@@ -39,9 +39,14 @@ body {
 /*Drew styling info*/
 
 #drewWrapper {
-
+	font-family: Helvetica;
+	color: lightgrey;
 }
 
+#about{
+	display: block;
+	width: 40%;
+}
 
 
 
