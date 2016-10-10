@@ -41,12 +41,22 @@ body {
 #drewWrapper {
 	font-family: Helvetica;
 	color: lightgrey;
+	text-align: center;
 }
 
 #about{
 	display: block;
 	width: 40%;
-}
+	color: lightgray;
+	padding: 10px;
+ }
+
+ footer {
+ 	background-color: lightgray;
+ 	color: dimgray;
+ 	padding-top: 15px;
+ }
+
 
 
 
