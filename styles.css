@@ -14,8 +14,37 @@ body {
 }
 
 
+nav {
+	background-color: black;
+	font-family: helvetica, sans-serif;
+}
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
 
+nav li {
+	float: left;
+	width: 20%;
+}
+
+nav li a {
+	display: block;
+	color: lime;
+	padding: 25px 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background: silver;
+	color: black;
+}
 
 
 /*Individual styling, use class names such as .yourName
