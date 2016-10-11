@@ -2,17 +2,37 @@
 /*Master styling info, check with others before
 changing anything in this section*/
 
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #999;
+}
+
+
+a {
+	text-decoration: none;
+	color: navy;
+}
+
+a:hover {
+	color: #659d32;
+}
+
+img {
+	width: 100%;
+	margin: 0;
+}
+
+
+/* ---- HEADER/NAVIGATION & FOOTER ------ */
+
 #mainImage img {
 	max-width: 100%;
 
 }
-
-body {
-	background-color: dimgray;
-	color: white;
-
-}
-
 
 nav {
 	background-color: black;
@@ -46,22 +66,69 @@ nav li a:hover {
 	color: black;
 }
 
+footer {
+	background: black;
+	padding: 20px;
+	clear: both;
+	margin-top: 30px;
+	font-family: helvetica;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
 
 /*Individual styling, use class names such as .yourName
  to specify your styling*/
 
 
-
-
 /*Abby styling info*/
 
-#abbyWrapper {
-
+#mission {
+	width: 60%;
+	margin: 40px auto;
+	line-height: 2em;
+	font-family: helvetica, sans-serif;
 }
 
+#mission img {
+	border-radius: 50px;
+	float: right;
+	width: 50%;
+	margin: 0 0 15px 15px;
+}
 
+#mission h1, #mission h2 {
+	color: white;
+	padding: 0;
+	margin: 0;
+}
 
+#valuesgoals {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
 
+#values, #goals {
+	width: 50%;
+	float: left;
+}
+
+#valuesgoals ul {
+	padding: 0;
+	margin: 0;
+}
+
+#valuesgoals ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
 
 
 
