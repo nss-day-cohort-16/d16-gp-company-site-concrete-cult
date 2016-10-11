@@ -14,8 +14,37 @@ body {
 }
 
 
+nav {
+	background-color: black;
+	font-family: helvetica, sans-serif;
+}
 
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+}
 
+nav li {
+	float: left;
+	width: 20%;
+}
+
+nav li a {
+	display: block;
+	color: lime;
+	padding: 25px 0;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background: silver;
+	color: black;
+}
 
 
 /*Individual styling, use class names such as .yourName
@@ -38,12 +67,113 @@ body {
 
 /*Drew styling info*/
 
-#drewWrapper {
+#drewbody{
+	text-align: center;
+	z-index: 3
 
+}
+
+#mainImage img {
+	float:left;
+	width: 100%;
+	max-height: 500px;
+}
+
+#white_wrapper {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 100%;
+	min-width: 700px;
+	background-color: grey ;
+	min-height: 1500px;
+	padding:none;
+	float:left;
+}
+
+
+#silver_wrapper{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 100%;
+	min-width: 700px;
+	background-color: lightgrey ;
+	min-height: 1500px;
+	padding:none;
+	float:left;
 }
 
 
 
+#footer_wrap {
+	max-height: 1500px;
+    max-width: 100%;
+    width: 100%;
+    background-color: #292929;
+    float: left;
+    padding: 30px;
+
+}
+ footer {
+ 	background-color: #1a1a1a;
+ 	width: 100%
+ }
+
+
+
+.element-invisible {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    overflow: hidden;
+    height: 1px;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-weight: 200;
+	text-align: center;
+}
+
+
+#foot_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: 100%;
+	font-family: helvetica;
+	font-size: .875em;
+
+}
+
+#foot_list li {
+	float: left;
+	text-align: center;
+	padding-left: 115px;
+}
+
+#foot_list a {
+	display: block;
+	color:#659D32;
+	padding: 4px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: .75em;
+	text-align: center;
+	padding-left: 75px;
+}
+
+#sublist {
+	font-size: .75em;
+	float: left;
+	list-style-type: none;
+}
+
+#sublist li {
+	margin-right: : 110px;
+	float: left;
+	display: block;
+}
 
 
 /*Ruach styling info*/
@@ -63,7 +193,7 @@ body {
 
 /*Sam styling info*/
 
-#samWrapper {
+#employeeListingWrapper {
 
 }
 
