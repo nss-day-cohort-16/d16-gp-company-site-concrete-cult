@@ -354,3 +354,34 @@ footer p {
 	
 }
 
+#employeesListingWrapper footer {
+	clear: left;
+	clear: right;
+	max-height: 5%;
+
+}
+
+
+
+
+
+
+          /*homepage styling info*/
+
+
+
+#indexWrapper {
+
+}
+
+
+#indexWrapper #briefIntro{
+	width: 25%;
+	border: 2px solid black;
+	padding: 1%;
+}
+
+
+#eterprise  {
+	max-width: 30%;
+}
