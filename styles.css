@@ -2,17 +2,37 @@
 /*Master styling info, check with others before
 changing anything in this section*/
 
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #999;
+}
+
+
+a {
+	text-decoration: none;
+	color: navy;
+}
+
+a:hover {
+	color: #659d32;
+}
+
+img {
+	width: 100%;
+	margin: 0;
+}
+
+
+/* ---- HEADER/NAVIGATION & FOOTER ------ */
+
 #mainImage img {
 	max-width: 100%;
 
 }
-
-body {
-	background-color: dimgray;
-	color: white;
-
-}
-
 
 nav {
 	background-color: black;
@@ -46,22 +66,69 @@ nav li a:hover {
 	color: black;
 }
 
+footer {
+	background: black;
+	padding: 20px;
+	clear: both;
+	margin-top: 30px;
+	font-family: helvetica;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
 
 /*Individual styling, use class names such as .yourName
  to specify your styling*/
 
 
-
-
 /*Abby styling info*/
 
-#abbyWrapper {
-
+#mission {
+	width: 60%;
+	margin: 40px auto;
+	line-height: 2em;
+	font-family: helvetica, sans-serif;
 }
 
+#mission img {
+	border-radius: 50px;
+	float: right;
+	width: 50%;
+	margin: 0 0 15px 15px;
+}
 
+#mission h1, #mission h2 {
+	color: white;
+	padding: 0;
+	margin: 0;
+}
 
+#valuesgoals {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
 
+#values, #goals {
+	width: 50%;
+	float: left;
+}
+
+#valuesgoals ul {
+	padding: 0;
+	margin: 0;
+}
+
+#valuesgoals ul li {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
 
 
 
@@ -69,8 +136,14 @@ nav li a:hover {
 
 #drewbody{
 	text-align: center;
-	z-index: 3
+	font-family: Helvetica;
+	color:#222;
+	text-shadow:0px 2px 3px #555;
+}
 
+#drewh1 {
+	font-family: helvetica;
+	font-weight: 200;
 }
 
 #mainImage img {
@@ -85,11 +158,10 @@ nav li a:hover {
 	max-width: 100%;
 	min-width: 700px;
 	background-color: grey ;
-	min-height: 1500px;
+	min-height: 1000px;
 	padding:none;
 	float:left;
 }
-
 
 #silver_wrapper{
 	width: 100%;
@@ -98,11 +170,9 @@ nav li a:hover {
 	min-width: 700px;
 	background-color: lightgrey ;
 	min-height: 1500px;
-	padding:none;
+	padding-top: 100px;
 	float:left;
 }
-
-
 
 #footer_wrap {
 	max-height: 1500px;
@@ -111,14 +181,12 @@ nav li a:hover {
     background-color: #292929;
     float: left;
     padding: 30px;
-
 }
- footer {
+
+ #drewfooter {
  	background-color: #1a1a1a;
  	width: 100%
  }
-
-
 
 .element-invisible {
     position: absolute !important;
@@ -126,41 +194,6 @@ nav li a:hover {
     clip: rect(1px,1px,1px,1px);
     overflow: hidden;
     height: 1px;
-}
-
-h1 {
-	font-family: Helvetica;
-	font-weight: 200;
-	text-align: center;
-}
-
-
-#foot_list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	width: 100%;
-	font-family: helvetica;
-	font-size: .875em;
-
-}
-
-#foot_list li {
-	float: left;
-	text-align: center;
-	padding-left: 115px;
-}
-
-#foot_list a {
-	display: block;
-	color:#659D32;
-	padding: 4px 0;
-	text-align: center;
-	text-decoration: none;
-	font-size: .75em;
-	text-align: center;
-	padding-left: 75px;
 }
 
 #sublist {
@@ -173,6 +206,53 @@ h1 {
 	margin-right: : 110px;
 	float: left;
 	display: block;
+}
+
+#silver_wrapper {
+	float:left;
+	
+}
+
+#rocket {
+	margin-left: 200px;
+	box-shadow: 10px 10px 5px #555;
+	width:50%;
+	height:50%;
+	float:left;
+	margin-left: 25%;
+	padding:none;
+}
+
+#infographic img{
+	width: 25%;
+	height: 25%;
+	float:left;
+	margin-top: 3%;
+	margin-left: 20%;
+	box-shadow: 10px 10px 5px #000; 
+
+}
+
+#infographic2 img{
+	width: 25%;
+	height: 835px;
+	float:right;
+	margin-top: 3%;
+	margin-right: 20%;
+	box-shadow: 10px 10px 5px #000; 
+
+}
+
+#dm_footer_p {
+	font-size:1.5em;
+	clear:left;
+	line-height: 1.25em;
+	padding-top: 100px;
+	padding-left: 30%;
+	width:70%;
+	text-align: center;
+	color:#222;
+	text-shadow:0px 2px 3px #555;
 }
 
 
@@ -197,6 +277,96 @@ h1 {
 
 }
 
+#employeeListingWrapper .employeeCard {
+	border: 2px solid black;
+	padding: 1%;
+	margin: 1%;
+	width: 45%;
+	float: left;
+	height: 150px;
+	vertical-align: middle;
+}
+
+#employeeListingWrapper .employeeImg {
+	float: left;
+	border: 1px solid black;
+	padding: .5%;
+	padding-bottom: 0;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    margin: 1%;
+
+}
+
+#employeeListingWrapper .employeeImg img {
+	width: 60px;
+	padding: 0;
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+
+}
+
+#employeeListingWrapper h2 {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+	
+}
+
+#employeeListingWrapper h5 {
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+	
+}
+
+#employeeListingWrapper p {
+	text-align: center;
+	margin: auto;
+}
+
+#employeeListingWrapper .employeeHeader {
+	margin: 1%;
+}
+
+#employeesListingWrapper #mainImage {
+	
+}
+
+#employeesListingWrapper footer {
+	clear: left;
+	clear: right;
+	max-height: 5%;
+
+}
 
 
 
+
+
+
+          /*homepage styling info*/
+
+
+
+#indexWrapper {
+	text-align: center;
+
+
+}
+
+
+#briefIntro{
+	width: 25%;
+	border: 2px solid black;
+	padding: 1%;
+	clear:left;
+	margin-left: 500px;
+}
+
+
+#eterprise  {
+	max-width: 30%;
+}
