@@ -137,18 +137,14 @@ footer p {
 #drewbody{
 	text-align: center;
 	font-family: Helvetica;
-	
-
+	color:#222;
+	text-shadow:0px 2px 3px #555;
 }
 
-#drewh1{
+#drewh1 {
 	font-family: helvetica;
 	font-weight: 200;
-
 }
-
-
-
 
 #mainImage img {
 	float:left;
@@ -167,7 +163,6 @@ footer p {
 	float:left;
 }
 
-
 #silver_wrapper{
 	width: 100%;
 	margin: 0 auto;
@@ -177,10 +172,7 @@ footer p {
 	min-height: 1500px;
 	padding-top: 100px;
 	float:left;
-	c
 }
-
-
 
 #footer_wrap {
 	max-height: 1500px;
@@ -189,14 +181,12 @@ footer p {
     background-color: #292929;
     float: left;
     padding: 30px;
-
 }
+
  #drewfooter {
  	background-color: #1a1a1a;
  	width: 100%
  }
-
-
 
 .element-invisible {
     position: absolute !important;
@@ -204,36 +194,6 @@ footer p {
     clip: rect(1px,1px,1px,1px);
     overflow: hidden;
     height: 1px;
-}
-
-
-
-#foot_list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	width: 100%;
-	font-family: helvetica;
-	font-size: .875em;
-
-}
-
-#foot_list li {
-	float: left;
-	text-align: center;
-	padding-left: 115px;
-}
-
-#foot_list a {
-	display: block;
-	color:#659D32;
-	padding: 4px 0;
-	text-align: center;
-	text-decoration: none;
-	font-size: .75em;
-	text-align: center;
-	padding-left: 75px;
 }
 
 #sublist {
@@ -248,30 +208,51 @@ footer p {
 	display: block;
 }
 
-#silver_wrapper #rocket {
+#silver_wrapper {
 	float:left;
+	
+}
+
+#rocket {
 	margin-left: 200px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 10px 10px 5px #555;
+	width:50%;
+	height:50%;
+	float:left;
+	margin-left: 25%;
+	padding:none;
 }
 
 #infographic img{
-	width: 500px;
-	height: 800px;
+	width: 25%;
+	height: 25%;
 	float:left;
 	margin-top: 3%;
-	margin-left: 10%;
+	margin-left: 20%;
 	box-shadow: 10px 10px 5px #000; 
 
 }
 
 #infographic2 img{
-	width: 500px;
-	height: 800px;
+	width: 25%;
+	height: 835px;
 	float:right;
 	margin-top: 3%;
-	margin-right: 10%;
+	margin-right: 20%;
 	box-shadow: 10px 10px 5px #000; 
 
+}
+
+#dm_footer_p {
+	font-size:1.5em;
+	clear:left;
+	line-height: 1.25em;
+	padding-top: 100px;
+	padding-left: 30%;
+	width:70%;
+	text-align: center;
+	color:#222;
+	text-shadow:0px 2px 3px #555;
 }
 
 
